@@ -6,14 +6,14 @@ function Featured_Recipes() {
   return (
     <>
     <div className="py-14">
-      <div className="container mx-auto px-7 md:px-0">
+      <div className="container  mx-auto px-7 md:px-0">
         
             <div className="mb-6">
                <span className="text-[16px] text-[#964824]">EDITOR'S CHOICE</span>
               <h2 className="text-[32px] text-[#1E1B18] font-bold">Featured Recipes</h2>
             </div>
              
-             <div className=" grid grid-cols-3 gap-8">
+             <div className=" grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="rounded-xl shadow-2xl">
               <div>
                 <img src={pizza} alt="pizza" className=" rounded-t-xl w-full bg-cover" />
