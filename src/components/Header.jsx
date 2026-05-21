@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 import buttonImage from "../assets/image/Button.svg";
 function Header() {
+
   return (
     <>
-   <div className="bg-[#FFF8F5] py-6">
+   <div className="bg-[#FFF8F5]  py-6">
        <div className=" container mx-auto px-7 md:px-0">
       <div className="flex justify-between items-center">
         
@@ -22,7 +23,7 @@ function Header() {
                         <Link to="/about">About</Link>
                     </li>
                     <li className="hover:text-[#7a8c74] transition-all">
-                        <Link>Pasta Recipes</Link>
+                        <Link  to="/pasta">Pasta Recipes</Link>
                     </li>
                     <li className="hover:text-[#7a8c74] transition-all">
                         <Link to="/pizza">Pizza Recipes </Link>
