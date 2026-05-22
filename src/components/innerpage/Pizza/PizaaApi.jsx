@@ -61,13 +61,13 @@ const currentItems = pasta.slice(
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
         
           {currentItems.map((item) => (
-             <Card key={item.id} pasta={item} />
+             <Card  pasta={item} />
           ))}
 
           </div>
       </div>
 
-      <div className="flex justify-center gap-4 mt-10">
+      <div className="flex justify-center flex-wrap gap-4 mt-10">
 
   <button
     onClick={() => setpage(1)}

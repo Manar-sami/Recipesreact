@@ -5,6 +5,7 @@ import Main from "./src/components/home/Main";
 import About from "./src/components/innerpage/About";
 import Pasta from "./src/components/innerpage/Pasta/Pasta";
 import Pizaa from "./src/components/innerpage/Pizza/Pizaa";
+import Burger from "./src/components/innerpage/Burger/Burger";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
    {
     path:"pizza",
     element:<Pizaa/>
+   },
+   {
+    path:"burger",
+    element:<Burger/>
    }
   ]
 

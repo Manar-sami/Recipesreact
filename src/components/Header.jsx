@@ -29,7 +29,7 @@ function Header() {
                         <Link to="/pizza">Pizza Recipes </Link>
                     </li>
                     <li className="hover:text-[#7a8c74] transition-all">
-                        <Link>Burger Recipes</Link>
+                        <Link to="/Burger">Burger Recipes</Link>
                     </li>
                     <li className="hover:text-[#7a8c74] transition-all">
                         <Link>Subscription Policy</Link>

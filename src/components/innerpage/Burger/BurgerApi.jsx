@@ -1,20 +1,24 @@
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Loading from "../../Loading";
 import Card from "../../Card";
 
-function PastaApi() {
+function BurgerApi() {
+
 
   const [pasta, setpasta] = useState([]);
   const [load, setload] = useState(true);
   const [error, seterror] = useState("");
+
+
 
   const getpasta = async () => {
 
     try {
 
       const respons = await axios.get(
-        "https://forkify-api.jonas.io/api/v2/recipes?search=pasta"
+        "https://forkify-api.jonas.io/api/v2/recipes?search=hamburger"
       );
 
       setpasta(respons.data.data.recipes);
@@ -47,19 +51,22 @@ function PastaApi() {
     return <div className="text-red-600">{error}</div>;
   }
 
+
+
   return (
     <>
      <div className="container mx-auto px-7 md:px-0">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
         
-          {pasta.slice(0,6).map((item) => (
-             <Card pasta={item} />
+          {pasta.map((item) => (
+             <Card  pasta={item} />
           ))}
 
           </div>
       </div>
+
     </>
-  );
+  )
 }
 
-export default PastaApi;
+export default BurgerApi
