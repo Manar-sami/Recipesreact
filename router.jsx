@@ -4,6 +4,8 @@ import Mainlayout from "./src/layout/Mainlayout";
 import Main from "./src/components/home/Main";
 import About from "./src/components/innerpage/About";
 import Pasta from "./src/components/innerpage/Pasta/Pasta";
+import Pizaa from "./src/components/innerpage/Pizza/Pizaa";
+
 const router = createBrowserRouter([
   {
   path:"/",
@@ -20,6 +22,10 @@ const router = createBrowserRouter([
    {
     path:"pasta",
     element:<Pasta />
+   },
+   {
+    path:"pizza",
+    element:<Pizaa/>
    }
   ]
 
