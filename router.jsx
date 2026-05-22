@@ -6,6 +6,7 @@ import About from "./src/components/innerpage/About";
 import Pasta from "./src/components/innerpage/Pasta/Pasta";
 import Pizaa from "./src/components/innerpage/Pizza/Pizaa";
 import Burger from "./src/components/innerpage/Burger/Burger";
+import Policy from "./src/components/innerpage/Policy";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
    {
     path:"burger",
     element:<Burger/>
+   },
+   {
+    path:"subscription-policy",
+    element:<Policy/>
    }
   ]
 
