@@ -28,7 +28,7 @@ function Pizaa() {
 
     <div className="py-12">
         <div className=" container px-7 md:px-0 mx-auto bg-[#F5ECE7] py-24 rounded-3xl">
-           <div className="grid grid-cols-2">
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           <div className="px-8">
               <h3 className="text-[48px] font-bold text-[#1E1B18] ">Master the Art of Dough</h3>
             <p className="text-[#444841] text-[18px] my-2.5">Join 50,000+ home chefs and receive our exclusive "Pasta

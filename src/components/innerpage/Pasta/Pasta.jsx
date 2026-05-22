@@ -29,7 +29,7 @@ function Pasta() {
 
     <div className="py-12">
         <div className=" container px-7 md:px-0 mx-auto bg-[#F5ECE7] py-24 rounded-3xl">
-           <div className="grid grid-cols-2">
+           <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="px-8">
               <h3 className="text-[48px] font-bold text-[#1E1B18] ">Master the Art of Dough</h3>
             <p className="text-[#444841] text-[18px] my-2.5">Join 50,000+ home chefs and receive our exclusive "Pasta
@@ -38,7 +38,7 @@ function Pasta() {
                 </p>
           </div>
 
-               <div className="flex justify-center items-center " >
+               <div className="flex justify-center items-center   " >
                 <form action="" className="flex  flex-col md:flex-row gap-3 mt-3.5" >
                 <input name="email" type="email" placeholder="Email address" className="border-none bg-white
                 py-3 px-6 rounded-xl focus:outline-none

@@ -22,12 +22,13 @@ function Header() {
                     <li className="hover:text-[#7a8c74] transition-all">
                         <Link to="/about">About</Link>
                     </li>
+                     <li className="hover:text-[#7a8c74] transition-all">
+                        <Link to="/pizza">Pizza Recipes </Link>
+                    </li>
                     <li className="hover:text-[#7a8c74] transition-all">
                         <Link  to="/pasta">Pasta Recipes</Link>
                     </li>
-                    <li className="hover:text-[#7a8c74] transition-all">
-                        <Link to="/pizza">Pizza Recipes </Link>
-                    </li>
+                
                     <li className="hover:text-[#7a8c74] transition-all">
                         <Link to="/Burger">Burger Recipes</Link>
                     </li>
